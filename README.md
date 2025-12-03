@@ -1,4 +1,4 @@
-# Alat Antrian Kesehatan (Microsite)
+# Alat Antrian Perbankan (Microsite)
 
 Website ini adalah _microsite_ khusus yang berfokus pada solusi sistem antrian untuk sektor kesehatan (Rumah Sakit, Puskesmas, Klinik). Dibangun menggunakan **Astro** untuk performa maksimal dan SEO yang optimal.
 
