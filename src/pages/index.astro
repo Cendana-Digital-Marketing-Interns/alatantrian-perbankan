@@ -1,0 +1,384 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Brands from '~/components/widgets/Brands.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+
+const metadata = {
+  title: 'Solusi Antrian RS Terintegrasi BPJS & Mobile JKN - AlatAntrian.com',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Konsultasi Gratis',
+        href: 'https://wa.me/6282150065758?text=Halo%2C%20saya%20mengunjungi%20website%20alatantrian-kesehatan%20dan%20ingin%20konsultasi.',
+        target: '_blank',
+        icon: 'tabler:brand-whatsapp',
+      },
+      { text: 'Kunjungi Web Utama', href: 'https://alatantrian.com' },
+    ]}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+  >
+    <Fragment slot="title">
+      <span class="hidden xl:inline">Wujudkan</span>
+      <span class="text-accent dark:text-white"> Smart Banking Experience </span> dengan Solusi Antrian Terintegrasi
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Kombinasi mesin Kiosk elegan dan perangkat lunak pintar untuk mengatur arus nasabah secara presisi. Ciptakan suasana ruang tunggu yang kondusif, profesional, dan 
+ <span class="font-semibold">bebas stres</span> bagi nasabah maupun staf keuangan Anda.
+    </Fragment>
+  </Hero>
+
+  <!-- Brands Widget ******************* -->
+  <Brands
+    title="Dipercaya oleh Instansi Keuangan Terkemuka"
+    subtitle="Bergabunglah dengan puluhan Bank yang telah memodernisasi pelayanannya"
+    icons={[]}
+    images={[
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/BPJS_Kesehatan_logo.svg',
+        alt: 'BPJS Kesehatan',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_of_the_Ministry_of_Health_of_the_Republic_of_Indonesia.svg',
+        alt: 'Kemenkes RI',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Siloam_Hospitals.svg',
+        alt: 'Bali RS',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Logo_of_Indonesian_Red_Cross.svg',
+        alt: 'Bali RS',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/General_Hospital_%28ABC_daytime_soap_opera_logo%29.svg',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/1/17/HowardUniversityHospitalLogo.svg',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_hospital_San_Jos%C3%A9_del_Callao.svg',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Nakornthon_Hospital_Logo.svg',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Cooper_University_Hospital_logo.svg',
+      },
+      {
+        src: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Logo_University_Hospital_Dresden_2024-06-01.svg',
+      },
+      // Tambahkan logo lain di sini nanti
+    ]}
+  />
+
+  <Features
+    id="fitur"
+    tagline="Keunggulan Utama"
+    title="Mengapa Bank Perlu Beralih ke Digital?"
+    subtitle="Fitur canggih yang dirancang khusus untuk efisiensi Fasilitas Keuangan"
+    items={[
+      {
+        title: 'Kustomisasi Alur Layanan',
+        description:
+          'Pisahkan antrian Teller, CS, dan VIP dengan mudah. Mendukung pencapaian target SLA layanan sesuai SOP bank Anda.',
+        icon: 'tabler:adjustments',
+      },
+      {
+        title: 'Audit Kinerja Real-time',
+        description:
+          'Pisahkan antrian Teller, CS, dan VIP dengan mudah. Mendukung pencapaian target SLA layanan sesuai SOP bank Anda.',
+        icon: 'tabler:device-desktop-analytics',
+      },
+      {
+        title: 'Keamanan Data Terjamin',
+        description:
+          'Sistem aman dan teruji menjaga privasi data. Memenuhi standar kepatuhan IT perbankan untuk meminimalkan risiko keamanan.',
+        icon: 'tabler:user-shield',
+      },
+      {
+        title: 'Support & Garansi 24/7',
+        description:
+          'Layanan teknis 24 jam siap onsite menjamin operasional lancar. Solusi cepat untuk mencegah gangguan layanan di kantor cabang.',
+        icon: 'tabler:phone',
+      },
+    ]}
+  />
+
+    <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    tagline="Hardware Tangguh"
+    title="Hardware Kiosk Elegan & Tahan Banting"
+    items={[
+      {
+        title: 'Desain Elegan Sesuai Brand',
+        description:
+          'Tampilan fisik kiosk dapat dikustomisasi mengikuti identitas visual bank Anda. Menciptakan kesan profesional dan menyatu dengan interior.',
+      },
+      {
+        title: 'Touchscreen Responsif',
+        description: 'Layar sentuh sensitif yang mudah digunakan nasabah segala usia. Performa tangguh dan anti-lag untuk pemakaian intensif.',
+      },
+      {
+        title: 'Printer Tiket Kecepatan Tinggi',
+        description: 'Cetak nomor antrian instan dengan fitur auto-cutter. Mencegah penumpukan nasabah di area pintu masuk demi kenyamanan.',
+      },
+    ]}
+    image={{
+      src: 'https://oemkiosks.com/img/bank-terminal/mindelo_SSBK.jpg',
+      alt: 'Mesin Antrian Kiosk',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Desain Modern & Customizable</h3>
+      Hardware kami tidak hanya fungsional, tapi juga mempercantik estetika lobi Bank Anda. Warna dan branding stiker
+      bisa disesuaikan dengan identitas instansi.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Manajemen Alur Terpadu',
+        description: `Pisahkan antrian Teller, CS, dan VIP secara otomatis. Menjamin layanan prioritas berjalan tepat tanpa mengabaikan nasabah reguler.`,
+      },
+      {
+        title: 'Monitoring Terpusat (Head Office)',
+        description:
+          'Pantau performa seluruh cabang secara real-time dari dashboard pusat. Memudahkan pengawasan operasional tanpa kunjungan fisik',
+      },
+      {
+        title: 'Analisis KPI Staf',
+        description:
+          'Rekam data durasi layanan secara akurat. Basis data objektif untuk audit operasional dan penilaian kinerja bulanan.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Tampilan Software Antrian',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Software yang Memahami Alur RS</h3>
+      Dirancang khusus untuk workflow rumah sakit, bukan sekadar software antrian bank biasa.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Bagaimana Cara Implementasinya?"
+    tagline="Alur Kerjasama"
+    items={[
+      {
+        title: 'Langkah 1: Konsultasi & Survey',
+        description:
+          'Tim kami akan berdiskusi dengan IT Bank Anda Anda untuk memetakan alur antrian dan kebutuhan. Jika diperlukan, kami lakukan survey lokasi.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Langkah 2: Penawaran & Demo',
+        description:
+          'Kami berikan proposal spesifikasi teknis (bisa untuk E-Katalog) dan melakukan demo produk agar Anda yakin dengan solusinya.',
+        icon: 'tabler:presentation',
+      },
+      {
+        title: 'Langkah 3: Instalasi & Bridging',
+        description:
+          'Pemasangan Kiosk, TV Display, dan instalasi jaringan. Tim programmer kami melakukan bridging V-Claim hingga status "Connected".',
+        icon: 'tabler:tool',
+      },
+      {
+        title: 'Siap Melayani Pasien!',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      alt: 'Teknisi sedang instalasi',
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Layanan Purna Jual & Support"
+    subtitle="Kami tidak hanya menjual alat, tapi menjamin kelancaran operasional pelayanan Bank Anda jangka panjang."
+    tagline="Komitmen Kami"
+    items={[
+      {
+        title: 'Garansi Resmi 1 Tahun',
+        description: 'Jaminan ganti sparepart baru jika terjadi kerusakan manufaktur pada Kiosk, PC, atau Printer.',
+        icon: 'tabler:certificate',
+      },
+      {
+        title: 'Teknisi Ready Visit',
+        description:
+          'Tim teknisi kami siap datang ke lokasi (On-Site) untuk perbaikan jika kendala tidak bisa diselesaikan secara remote.',
+        icon: 'tabler:user-check',
+      },
+      {
+        title: 'Remote Support 24/7',
+        description:
+          'Bantuan teknis via WhatsApp/TeamViewer kapan saja saat terjadi kendala pada software atau jaringan.',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Update Software Gratis',
+        description:
+          'Mendapatkan update fitur terbaru dan penyesuaian jika ada perubahan regulasi (Free Maintenance).',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: 'Sparepart Ready Stock',
+        description: 'Ketersediaan suku cadang (Thermal Paper, Printer Head, Touchscreen) selalu terjamin.',
+        icon: 'tabler:package',
+      },
+      {
+        title: 'Training Petugas',
+        description: 'Pelatihan lengkap untuk admin, staf, dan IT Bank hingga mahir mengoperasikan sistem.',
+        icon: 'tabler:school',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    title="Wawasan & Studi Kasus"
+    information={`Temukan artikel terbaru seputar regulasi antrian Bank, tips akreditasi Keuangan, dan studi kasus implementasi di berbagai instansi. Edukasi adalah kunci modernisasi.`}
+  />
+
+  <!-- Testimonials Widget ******* -->
+
+  <Testimonials
+    title="Kata Mereka Tentang Kami"
+    subtitle="Dengarkan pengalaman langsung dari Direktur Bank, Kepala IT, dan Manajer Operasional yang telah menggunakan sistem kami."
+    testimonials={[
+      {
+        testimonial: `Sebelumnya kami masih pakai sistem antrian manual. Sejak pakai alat antrian ini, layanan lebih lancar. Pelanggan merasa dihargai karena tidak perlu antre berdiri lama-lama.`,
+        name: 'Bapak Mulyono',
+        job: 'Bank Jateng',
+        image: {
+          src: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80',
+          alt: 'Pak Mulyono Image',
+        },
+      },
+      {
+        testimonial: `Fitur laporannya sangat detail dan akurat. Saya bisa memantau kinerja Teller dan CS setiap hari dengan mudah. Tampilan mesin kiosk-nya juga membuat lobi kantor kami terlihat jauh lebih modern dan profesional.`,
+        name: 'Ibu Rina Susanti',
+        job: 'Manajer Operasional BPR Artha Mandiri',
+        image: {
+          src: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80',
+          alt: 'Bu Rina Image',
+        },
+      },
+      {
+        testimonial: `Sistem antrian otomatis ini sangat membantu dalam mengatur pelanggan di jam sibuk. Karyawan kami jadi lebih fokus melayani. Teknologinya juga mudah digunakan!`,
+        name: 'Bapak Andi',
+        job: 'KPP Tulungagung (Kantor Pelayanan Pajak)',
+        image: {
+          src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&h=100&q=80',
+          alt: 'Pak Andi Image',
+        },
+      },
+    ]}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Pertanyaan Umum (FAQ)"
+    subtitle="Hal yang sering ditanyakan oleh manajemen Bank maupun Instansi Keuangan sebelum bekerjasama."
+    tagline="Informasi"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Apakah sistem ini bisa membedakan jalur antrian untuk Nasabah Reguler dan Nasabah Prioritas?',
+        description:
+          'Ya, sistem C2000 mendukung fitur Multi-Layanan dan Priority Queuing. Anda dapat mengatur alur khusus agar Nasabah Prioritas (VIP) dipanggil lebih cepat atau diarahkan ke loket khusus, sesuai dengan standar pelayanan (SLA) bank Anda.',
+      },
+      {
+        title: 'Apakah data laporan antrian bisa digunakan untuk evaluasi kinerja Teller dan Customer Service (KPI)?',
+        description:
+          'Tentu. Sistem kami merekam data secara real-time, mencakup waktu tunggu nasabah dan durasi pelayanan di setiap loket. Data ini dapat diunduh (Excel/PDF) sebagai dasar objektif untuk audit operasional dan penilaian KPI bulanan staf.',
+      },
+      {
+        title: 'Bisakah desain tampilan di layar dan fisik mesin disesuaikan dengan standar branding Bank kami?',
+        description:
+          'Sangat bisa. Kami menyediakan kustomisasi penuh. Mulai dari warna bodi mesin, stiker logo, hingga tampilan antarmuka (UI) di layar sentuh dan TV ruang tunggu, semuanya dapat disesuaikan agar selaras dengan Corporate Identity instansi Anda.',
+      },
+      {
+        title: 'Bagaimana jika terjadi kendala teknis pada mesin saat jam operasional bank sedang sibuk?',
+        description:
+          'Kami memahami bahwa layanan bank tidak boleh terhenti. Kami menyediakan dukungan teknis (Support) 24 Jam. Tim kami siap melakukan penanganan cepat via remote access, atau mengirim teknisi onsite ke lokasi Anda segera jika diperlukan perbaikan fisik.',
+      },
+    ]}
+  />
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    stats={[
+      { title: 'Unit Terpasang', amount: '500+' },
+      { title: 'Tahun Pengalaman', amount: '12+' },
+      { title: 'Provinsi Terjangkau', amount: '34' },
+      { title: 'Nasabah Terlayani', amount: '50.000+' },
+    ]}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Hubungi Kami',
+        href: 'https://wa.me/6282150065758?text=Halo%2C%20saya%20mengunjungi%20website%20alatantrian-kesehatan%20dan%20ingin%20konsultasi.', // Ganti nomor WA
+        target: '_blank',
+        icon: 'tabler:brand-whatsapp',
+      },
+    ]}
+  >
+    <Fragment slot="title"> Siap Meningkatkan Kepuasan Nasabah Anda? </Fragment>
+
+    <Fragment slot="subtitle">
+      Jangan biarkan antrian lama merusak citra Bank. <br class="hidden md:inline" />
+      Dapatkan proposal penawaran dan demo gratis hari ini.
+    </Fragment>
+  </CallToAction>
+</Layout>
