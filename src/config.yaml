@@ -1,6 +1,6 @@
 site:
-  name: AlatAntrian Kesehatan
-  site: 'https://alatantrian-kesehatan.vercel.app'
+  name: AlatAntrian Perbankan
+  site: 'https://alatantrian-perbankan.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: 'Solusi Antrian RS & Puskesmas Terintegrasi BPJS'
-    template: '%s — Alat Antrian Kesehatan'
-  description: "\U0001F680 Spesialis mesin antrian kiosk, software bridging Mobile JKN, dan sistem manajemen antrian untuk Rumah Sakit."
+    default: 'Solusi Antrian Perbankan & Keuangan Terintegrasi'
+    template: '%s — Alat Antrian Perbankan'
+  description: "\U0001F680 Spesialis mesin antrian kiosk dan sistem manajemen antrian untuk Bank."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Alat Antrian Kesehatan
+    site_name: Alat Antrian Perbankan
     images:
       - url: '~/assets/images/default.png'
         width: 1200

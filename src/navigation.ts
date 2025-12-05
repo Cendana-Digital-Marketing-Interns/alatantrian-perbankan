@@ -8,17 +8,14 @@ export const headerData = {
       links: [
         // Kelompok Produk
         {
-          text: 'Hardware Kiosk RS',
+          text: 'Hardware Kiosk Bank',
           href: getPermalink('/products/kiosk-rs'), // Pastikan slug sesuai nama file md
         },
         {
-          text: 'Software BPJS',
+          text: 'Software Keuangan',
           href: getPermalink('/products/software-bpjs'),
         },
-        {
-          text: 'Sistem Poliklinik',
-          href: getPermalink('/products/poliklinik'),
-        },
+
         // Kelompok Layanan (Urutan di bawah produk)
         {
           text: 'Jasa Instalasi',
@@ -82,9 +79,11 @@ export const footerData = {
     {
       title: 'Microsite Lain',
       links: [
-        { text: 'Pelayanan Publik', href: '#' },
-        { text: 'Perbankan', href: '#' },
-        { text: 'Pendidikan', href: '#' },
+        { text: 'Pelayanan Publik', href: 'http://alatantrian-publik.vercel.app/' },
+        { text: 'Kesehatan', href: 'http://alatantrian-kesehatan.vercel.app/' },
+        { text: 'Pendidikan', href: 'http://alatantrian-pendidikan.vercel.app/' },
+        { text: 'Retail', href: 'http://alatantrian-retail.vercel.app/' },
+        { text: 'Transportasi', href: 'http://alatantrian-transportasi.vercel.app/' },
       ],
     },
     {
@@ -106,6 +105,6 @@ export const footerData = {
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
   ],
   footNote: `
-    © 2025 <a class="text-blue-600 underline dark:text-muted" href="https://alatantrian.com/">AlatAntrian.com Group</a> · Spesialis Antrian Kesehatan.
+    © 2025 <a class="text-blue-600 underline dark:text-muted" href="https://alatantrian.com/">AlatAntrian.com Group</a> · Spesialis Antrian Perbankan.
   `,
 };
