@@ -2,7 +2,7 @@
 publishDate: 2025-12-05T12:00:00Z
 title: 'Nasabah Pindah ke Kompetitor? Bahaya Tersembunyi Antrian Panjang'
 excerpt: Ketidakpastian waktu tunggu adalah pemicu utama komplain nasabah. Pelajari cara mengubah ruang tunggu yang penuh sesak menjadi pengalaman layanan yang nyaman dan profesional.
-image: ~/assets/images/blog/antrian-farmasi.png
+image: ~/assets/images/blog/antrian-bank.webp
 category: Manajemen RS
 tags:
   - keuangan
