@@ -3,7 +3,7 @@ publishDate: 2025-12-05T12:00:00Z
 title: 'Nasabah Pindah ke Kompetitor? Bahaya Tersembunyi Antrian Panjang'
 excerpt: Ketidakpastian antrian memicu komplain. Ubah ruang tunggu sesak menjadi pengalaman layanan yang nyaman, tertib, dan profesional.
 image: ~/assets/images/blog/antrian-bank.webp
-category: Manajemen RS
+category: Manajemen Bank
 tags:
   - keuangan
   - waktu tunggu
