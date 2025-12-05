@@ -1,8 +1,8 @@
 ---
-publishDate: 2025-02-21T00:00:00Z
+publishDate: 2025-11-30T00:10:00Z
 title: 'Kiosk Touchscreen vs Tiket Dispenser Tombol: Mana Lebih Baik?'
 excerpt: Perbandingan teknis dan ekonomis antara mesin antrian modern berbasis layar sentuh dengan mesin tombol konvensional.
-image: ~/assets/images/hero-image.png
+image: https://media.istockphoto.com/id/1076117296/id/foto/pengusaha-menggunakan-atm-jalanan.jpg?s=612x612&w=0&k=20&c=FQ3Q3DETSs3boIa9dJVMgIMm5fpnGi4jOoe7MVnmmBc=
 category: Teknologi
 tags:
   - hardware
@@ -13,16 +13,16 @@ metadata:
   title: Kiosk Touchscreen vs Mesin Tombol
 ---
 
-Banyak RS yang masih ragu: "Apakah kami perlu beli Kiosk Touchscreen yang mahal, atau cukup mesin tombol biasa?" Mari kita bedah perbandingannya secara objektif.
+Banyak Manajemen Bank yang masih menimbang: “Apakah perlu investasi Kiosk Touchscreen yang modern, atau cukup mesin tombol konvensional?” Mari kita bedah perbandingannya secara objektif.
 
 ## 1. Fleksibilitas Layanan
 
-- **Mesin Tombol:** Kaku. Jika Anda menambah poli baru, Anda harus membongkar mesin, mengebor lubang baru, dan menempel stiker tombol baru.
-- **Kiosk Touchscreen:** Fleksibel. Menambah layanan baru semudah mengedit menu di software. Tidak ada bongkar fisik. Tampilan layar bisa diubah-ubah (misal: pagi untuk Pendaftaran, sore untuk Ambil Obat).
+- **Mesin Tombol:** Kaku. Jika Bank Anda ingin mengubah alur (misal: memisahkan antrian "Setoran Tunai" dengan "Transaksi Kliring"), Anda harus membongkar fisik mesin, melubangi panel, dan mengganti stiker tombol. Sangat merepotkan dan tidak mendukung perubahan SOP yang cepat.
+- **Kiosk Touchscreen:** Menambah atau merubah nama layanan semudah mengedit setting di software tanpa bongkar fisik. Tampilan menu pun bisa diatur dinamis (misal: Menu "Layanan Prioritas" bisa diaktifkan atau disembunyikan sesuai kebutuhan operasional harian).
 
 ## 2. Branding & Citra
 
-Mesin Kiosk dengan layar 17-24 inch bisa menampilkan video profil RS atau promosi paket _Medical Check-up_ saat sedang tidak disentuh (Idle Mode). Ini adalah ruang iklan gratis yang elegan.
+Mesin Kiosk dengan layar luas (17-24 inch) bukan sekadar alat pencetak tiket. Saat sedang Idle Mode (tidak disentuh nasabah), layar ini berfungsi sebagai Digital Signage. Anda bisa menampilkan video profil Bank, info suku bunga deposito terbaru, atau promo KPR & Mobile Banking. Ini adalah ruang iklan gratis yang elegan untuk meningkatkan citra profesional sekaligus mendorong penjualan produk bank.
 
 ## 3. Ketahanan Fisik (Durability)
 
