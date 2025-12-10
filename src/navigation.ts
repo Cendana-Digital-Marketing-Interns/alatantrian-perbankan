@@ -9,11 +9,11 @@ export const headerData = {
         // Kelompok Produk
         {
           text: 'Hardware Kiosk Bank',
-          href: getPermalink('/products/kiosk-rs'), // Pastikan slug sesuai nama file md
+          href: getPermalink('/products/kiosk-bank'), // Pastikan slug sesuai nama file md
         },
         {
           text: 'Software Keuangan',
-          href: getPermalink('/products/software-bpjs'),
+          href: getPermalink('/products/software-keuangan'),
         },
 
         // Kelompok Layanan (Urutan di bawah produk)
@@ -63,9 +63,8 @@ export const footerData = {
     {
       title: 'Produk Unggulan',
       links: [
-        { text: 'Kiosk Touchscreen', href: getPermalink('/produk/kiosk-rs') },
-        { text: 'Software Bridging', href: '#' },
-        { text: 'Display TV Poli', href: '#' },
+        { text: 'Kiosk Touchscreen', href: getPermalink('/produk/kiosk-bank') },
+        { text: 'Software Keuangan', href: '#' },
       ],
     },
     {
@@ -105,6 +104,6 @@ export const footerData = {
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
   ],
   footNote: `
-    © 2025 <a class="text-blue-600 underline dark:text-muted" href="https://alatantrian.com/">AlatAntrian.com Group</a> · Spesialis Antrian Perbankan.
+    © 2025 <a class="text-cyan-600 underline dark:text-muted" href="https://alatantrian.com/">AlatAntrian.com Group</a> · Spesialis Antrian Perbankan.
   `,
 };
