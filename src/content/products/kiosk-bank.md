@@ -17,7 +17,7 @@ metadata:
 
 ## Deskripsi Lengkap
 
-Mesin **Kiosk V1-B** adalah solusi antrian mandiri (*self-service ticketing*) yang dirancang khusus untuk meningkatkan standar profesionalitas area *Banking Hall*.
+Mesin **Kiosk V1** adalah solusi antrian mandiri (*self-service ticketing*) yang dirancang khusus untuk meningkatkan standar profesionalitas area *Banking Hall*.
 
 Dibuat dengan material **plat besi kokoh** dan *finishing* cat yang elegan, mesin ini dapat dikustomisasi sepenuhnya mengikuti identitas visual (*corporate branding*) Bank Anda. Sistem ini sangat *user-friendly*, memudahkan nasabah dari berbagai kalangan usia untuk memilih layanan (Teller, CS, atau Prioritas) dengan cepat.
 
